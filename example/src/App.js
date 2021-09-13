@@ -1,10 +1,16 @@
 import React from 'react'
 
-import { ExampleComponent } from 'libadd'
-import 'libadd/dist/index.css'
+import { MainComponent } from 'libadd'
+import 'libadd/dist/styleComponent.css'
+
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <div>
+      <MainComponent />
+
+    </div>
+  )
 }
 
 export default App
