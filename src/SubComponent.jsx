@@ -17,7 +17,9 @@ export default class SubComponent extends Component {
                     <input className="inputStyle" style={{ borderwidth: 1, margin: 10}} placeholder="Num1" onChange={this.handleChange1} />
                     <input className="inputStyle" style={{ borderwidth: 1, margin: 10 }} placeholder="Num2" onChange={this.handleChange2} />
                     <br/>
-                    <label className="outStyle">sum:3 {this.state.Num1+this.state.Num2}</label>
+                    
+                <button type="button" className="outStyle">sum</button>
+                <label> {this.state.Num1+this.state.Num2}</label>
             </div>
         )
     }
